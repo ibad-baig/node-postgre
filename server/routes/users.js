@@ -1,7 +1,7 @@
 var express = require('express');
 var Promise = require('bluebird');
 const { Pool } = Promise.promisifyAll(require('pg'));
-const dbConfig = require('../dbconfig');
+const dbConfig = require('../../dbconfig');
 var router = express.Router();
 
 /* GET users listing. */
